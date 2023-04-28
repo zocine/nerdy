@@ -224,44 +224,25 @@ section ul li i{
 section ul li:nth-child(2) a span.section__imgbox{
     background-image: url("./images/main_img_01.jpg");
     width: 350px;
-    height: 568px;
-    border: 1px solid blue;
+    height: 565px;
+    /* border: 1px solid blue; */
 }
 section ul li:nth-child(3) a span.section__imgbox{
     background-image: url("./images/main_img_02.jpg");
     width: 350px;
-    height: 568px;
+    height: 565px;
     /* border: 5px solid black; */
 }
-section ul li a span.section__textbox1 strong{
-    font-family: 'GmarketSansMedium';
-    display: block;
-    font-size: 2rem;
-    /* width: 100%; */
-    /* height: 100%; */
-    color: #fff;
-    padding: 32rem 2rem 0;
-    /* background-color: #000; */
-    /* border: 1px solid red; */
-}
 section ul li a span.section__textbox1{
-    padding-top: 100px;
-    /* font-family: 'GmarketSansMedium';
-    display: block;
-    font-size: 1.3rem; */
-    /* width: 100%; */
-    /* height: 100%; */
-    /* color: #fff;
-    padding: 0.5rem 2rem 1rem; */
-    /* background-color: #000; */
-    border: 1px solid yellow;
+    padding-top: 590px;
+    /* border: 1px solid yellow; */
 }
 section ul li a span.section__textbox2{
     background: #fff;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     top: 100px;
     padding: 10px 40px 10px;
-    transition: 1s;
+    transition: 0.7s;
 }
 section ul li:hover a span.section__textbox2{
     background: #897ebb;

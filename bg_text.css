@@ -1,0 +1,84 @@
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+*, body {
+   font-family: sans-serif,'Malgun Gothic';
+   font-size: 13px;
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
+p {
+   margin:0;
+}
+a,a:hover, a:focus, a:active, a:link {
+   text-decoration: none;
+   color:inherit;
+}
+h1 {
+    font-size: 2rem;
+    margin: 0 0 10px;
+}
+.resquick_content {
+    letter-spacing: -1px;
+    width: 50%;
+    float: left;
+    background: #3165dd;
+    text-align: center;
+}
+.resquick_content  {
+    color: #ffffff;
+    padding: 13% 0;
+    display: block;
+}
+.resquick_content > h2 {
+    font-size: 1.86rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+.resquick_content > p {
+    margin: 8% 0 12%;
+} 
+
+.resquick_content > a {
+    border: 1px solid #ffffff;
+    padding: 2% 14%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    
+}
+.resquick_content > a:after {
+  
+    content: "";
+    width: 100%;
+    height: 0%;
+    /* top: 0; */
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    background: #ffffff;
+    /* border: 1px solid red; */
+}
+.resquick_content > a:hover {
+    color: #333;
+  /* border: 1px solid red; */
+}
+.resquick_content > a:hover:after {
+  /* border: 1px solid red; */
+    /* width: 100%; */
+  height: 100%;
+    z-index: -1;
+}
